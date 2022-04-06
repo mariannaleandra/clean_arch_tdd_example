@@ -1,5 +1,5 @@
 import 'package:clean_arch_tdd_example/core/usecase/usecase.dart';
-import 'package:clean_arch_tdd_example/features/number_trivia/domain/entities/number_trivial.dart';
+import 'package:clean_arch_tdd_example/features/number_trivia/domain/entities/number_triviadart';
 import 'package:clean_arch_tdd_example/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 import 'package:clean_arch_tdd_example/features/number_trivia/domain/usecases/get_random_number_trivia.dart';
 import 'package:dartz/dartz.dart';

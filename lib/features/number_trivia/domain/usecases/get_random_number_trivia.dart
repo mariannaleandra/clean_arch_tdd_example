@@ -3,7 +3,7 @@ import 'package:equatable/equatable.dart';
 
 import '../../../../core/error/failures.dart';
 import '../../../../core/usecase/usecase.dart';
-import '../entities/number_trivial.dart';
+import '../entities/number_triviadart';
 import '../repositories/number_trivia_repository.dart';
 
 class GetRandomNumberTrivia extends UseCase<NumberTrivia, NoParams> {
