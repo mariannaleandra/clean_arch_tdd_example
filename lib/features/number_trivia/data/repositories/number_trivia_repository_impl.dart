@@ -10,7 +10,7 @@ import 'package:dartz/dartz.dart';
 
 import '../../../../core/network/network_info.dart';
 
-typedef Future<NumberTriviaModel> _ConcreteOrRandomChooser();
+typedef _ConcreteOrRandomChooser = Future<NumberTriviaModel> Function();
 
 class NumberTriviaRepositoryImpl implements NumberTriviaRepository {
   final NumberTriviaRemoteDataSource remoteDataSource;
