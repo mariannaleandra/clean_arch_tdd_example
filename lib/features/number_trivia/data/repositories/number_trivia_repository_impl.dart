@@ -1,4 +1,4 @@
-import 'package:clean_arch_tdd_example/features/number_trivia/data/models/number_trivia_model.dart';
+import '../models/number_trivia_model.dart';
 
 import '../../../../core/error/exceptions.dart';
 import '../datasoucers/number_trivia_remote_data_source.dart';
