@@ -18,16 +18,22 @@
             "type": "dart"
         },
         {
-            "name": "clean_arch_tdd_example (profile mode)",
+            "name": "app profile",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "clean_arch_tdd_example (release mode)",
+            "name": "app release",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
+        },
+        {
+            "name": "app debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
         }
     ]
 }
