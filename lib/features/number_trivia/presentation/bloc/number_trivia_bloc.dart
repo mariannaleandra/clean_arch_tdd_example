@@ -43,7 +43,7 @@ class NumberTriviaBloc extends Bloc<NumberTriviaEvent, NumberTriviaState> {
 
       yield* inputEither.fold(
         (failure) async* {
-          yield Error(message: INVALID_INPUT_FAILURE_MESSAGE);
+          yield const Error(message: INVALID_INPUT_FAILURE_MESSAGE);
         },
         (integer) async* {
           yield Loading();
